@@ -6,9 +6,15 @@ body,html{
     margin: 0;
     background-color: #f5fcfb;
     font-family: 'Open Sans', sans-serif;
+    font-size: 2vw;
 }
-body {
-    padding: 2vw;
+.main{
+    margin: 0 auto;
+    width: 80%;
+}
+.nav{
+    margin: 2vh 0;
+    text-align: right;
 }
 .main-heading{
     display: flex;
