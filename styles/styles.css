@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;
+}
 body, html{
     display: block;
     width: 100%;
@@ -15,19 +18,6 @@ body, html{
 .nav{
     margin: 2vh 0;
     text-align: right;
-}
-.nav a:link{
-    color: #696e6d;
-    font-weight: 400;
-    text-decoration: none;
-}
-.nav a:visited{
-    color: #696e6d;
-    font-weight: 400;
-    text-decoration: none;
-}
-.nav a:hover{
-    text-decoration: underline;
 }
 .main-heading{
     display: flex;
@@ -49,12 +39,12 @@ body, html{
     padding-left: 3.5vw;
 }
 a:link{
-    color: #5493ff;
+    color: #2cc7a6;
     font-weight: 400;
     text-decoration: none;
 }
 a:visited{
-    color: #5493ff;
+    color: #2cc7a6;
     font-weight: 400;
     text-decoration: none;
 }
@@ -100,8 +90,21 @@ h1{
 .about-me b{
     font-weight: 400;
 }
+.about-me a:link{
+    color: #edf5f4;
+    font-weight: 400;
+    text-decoration: none;
+}
+.about-me a:visited{
+    color: #edf5f4;
+    font-weight: 400;
+    text-decoration: none;
+}
+.about-me a:hover{
+    text-decoration: underline;
+}
 .featured-picture{
-    background-image: url("../turner.jpg");
+    background-image: url("../media/turner.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -127,11 +130,11 @@ h1{
 }
 .project-card{
     display: grid;
-    grid-template-rows: 1fr 2fr 1fr;
+    grid-template-rows: 1fr 3fr 1fr 1fr;
     align-items: center;
     background-color: white;
     width: 100%;
-    height: 30vw;
+    height: 34vw;
     margin-top: 5vh;
     border-radius: 10px;
     box-shadow: 0 50px 100px rgba(16,71,60,.15), 0 15px 35px rgba(16,71,60,.2), 0 5px 15px rgba(0,0,0,.12);
@@ -141,6 +144,22 @@ h1{
     color: #696e6d;
     margin: 1.5vw;
     font-size: .9em;
+}
+.project-card a{
+    width: 13vw;
+    text-align: center;
+    background-color: #2cc7a6;
+    color: white;
+    padding: .5vw;
+    font-size: .9em;
+    border-radius: 5px;
+    margin-left: 1vw;
+}
+.project-card a:hover{
+    border: 1px solid #2cc7a6;
+    background-color: white;
+    color: #2cc7a6;
+    text-decoration: none;
 }
 h3{
     color: #696e6d;

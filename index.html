@@ -10,11 +10,11 @@
     <body>
         <div class='main'>
             <div class='nav'>
-                <a href='#'>About</a>
+                <a href='#about-me-header'>About</a>
                 <div id='space'></div>
-                <a href='#'>Projects</a>
+                <a href='#projects-header'>Projects</a>
                 <div id='space'></div>
-                <a href='#'>Contact Me</a>
+                <a href='#contact-header'>Contact Me</a>
             </div>
             <div class='main-heading'>
                 <div id='heading-text'>> </div>
@@ -23,7 +23,7 @@
             <div class='main-subtitle'>
                 <p>I am a Computer Science student at Duke University interested in exploring the intersections of technology and social good.</p>
             </div>
-            <h1>About Me</h1>
+            <h1 id='about-me-header'>About Me</h1>
             <div class='separator'></div>
             <div class='about-me'>
                 <div class='my-face'>
@@ -35,12 +35,12 @@
                         <li><b>></b> I make fully custom <b>WordPress</b> plugins and themes </li>
                         <li><b>></b> I'm also interested in literature, philosophy, and political science </li>
                         <li><b>></b> In my free time I play piano, bake, and watch the latest HBO show</li>
-                        <li><b>></b> Check out my <a href="resume.pdf" target="_blank">resume</a>! </li>
+                        <li><b>></b> Check out my <a href="resume.pdf" target="_blank">resume!</a></li>
                     </ul>
                 </div>
             </div>
             <div class='projects'>
-                <h1>Projects</h1>
+                <h1 id='projects-header'>Projects</h1>
                 <div class='separator'></div>
                 <div class='project-card'>
                     <h3>WordPress Inventory Tracker</h3>
@@ -57,13 +57,15 @@
                         <span class='language'>HTML/CSS</span>
                         <span class='language'>jQuery</span>
                     </div>
+                    <a class='video-link' href="https://youtu.be/FB2ALe76JqU" target='_blank'>Watch a Demo</a>
                 </div>
                 <div class='project-card'>
                     <h3>Experient API Implementation</h3>
                     <p>
                         An event planning platform needed to add a call to the Experient API within an existing application built using angular and golang. 
-                        Users are able to enter a code for their events and download a list of all registrants, supplied by the API. To add this feature I made 
-                        multiple SOAP calls to the API and formatted the data in a CSV file that downloads to the user's computer.
+                        Users are able to enter a code for their events and download a list of thousands of registrants, supplied by the API. To add this feature I made 
+                        multiple SOAP calls to the API and formatted the data in a CSV file that downloads to the user's computer. I was also introduced to networking, and
+                        used router and handler functions to integrate the new feature into the app.
                     </p>
                     <div class='technologies'>
                         <span class='language'>Go</span>
@@ -71,11 +73,12 @@
                         <span class='language'>HTML/CSS</span> 
                         <span class='language'>JavaScript</span>
                     </div>
+                    <a class='video-link' href="https://youtu.be/xH2F3yyhQog" target='_blank'>Watch a Demo</a>
                 </div>
                 <div class='project-card'>
                     <h3>Personal Portfolio</h3>
                     <p>
-                        I made this website to demonstrate my abilities and practice writing HTML and CSS without using a framework. I made this website using
+                        I made this website to demonstrate my abilities while practicing writing HTML and CSS without using a framework. I made this website using
                         vanilla HTML, CSS, and JavaScript. Through making this website I practiced using CSS grid and flexbox elements, responsive design, and 
                         general web design best practices. It was also an opportunity to make something I had full creative control over, so I got to have some
                         fun with the design.
@@ -84,10 +87,11 @@
                         <span class='language'>HTML/CSS</span>
                         <span class='language'>JavaScript</span> 
                     </div>
+                    <a class='video-link' href="https://turnerjordan.com">Live Website</a>
                 </div>
             </div>
             <div class='contact'>
-                <h1>Contact Me</h1>
+                <h1 id='contact-header'>Contact Me</h1>
                 <div class='separator'></div>
                 <div class='contact-links'>
                     <span>turner.jordan585@gmail.com</span><span>|</span>
