@@ -16,6 +16,19 @@ body, html{
     margin: 2vh 0;
     text-align: right;
 }
+.nav a:link{
+    color: #696e6d;
+    font-weight: 400;
+    text-decoration: none;
+}
+.nav a:visited{
+    color: #696e6d;
+    font-weight: 400;
+    text-decoration: none;
+}
+.nav a:hover{
+    text-decoration: underline;
+}
 .main-heading{
     display: flex;
     font-family: "Lucida Console", Monaco, monospace;
@@ -36,12 +49,12 @@ body, html{
     padding-left: 3.5vw;
 }
 a:link{
-    color: #223d6b;
+    color: #5493ff;
     font-weight: 400;
     text-decoration: none;
 }
 a:visited{
-    color: #223d6b;
+    color: #5493ff;
     font-weight: 400;
     text-decoration: none;
 }
@@ -80,7 +93,7 @@ h1{
     margin: 5vh 0;
     justify-items: center;
     align-items: center;
-    color: #5c6160;
+    color: #696e6d;
     font-weight: 300;
     box-shadow: 0 50px 100px rgba(16,71,60,.15), 0 15px 35px rgba(16,71,60,.2), 0 5px 15px rgba(0,0,0,.12);
 }
@@ -107,13 +120,39 @@ h1{
 }
 .bio-list li{
     line-height: 1.5em;
-    color: #5c6160;
+    color: #696e6d;
     font-weight: 300;
     font-size: 1em;
     margin-bottom: 1em;
 }
 .project-card{
-
+    display: grid;
+    grid-template-rows: 1fr 2fr 1fr;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+    height: 30vw;
+    margin-top: 5vh;
+    border-radius: 10px;
+    box-shadow: 0 50px 100px rgba(16,71,60,.15), 0 15px 35px rgba(16,71,60,.2), 0 5px 15px rgba(0,0,0,.12);
+}
+.project-card p{
+    font-weight: 300;
+    color: #696e6d;
+    margin: 1.5vw;
+    font-size: .9em;
+}
+h3{
+    color: #696e6d;
+    font-weight: 400;
+    margin: 0 1.5vw;
+    font-size: 1.5em;
+}
+.language{
+    font-size: .9em;
+    margin: 1.5vw;
+    font-weight: 400;
+    color: #2cc7a6;
 }
 .contact-links{
     font-size: .9em;
@@ -121,6 +160,7 @@ h1{
     margin-top: 5vh;
     text-align: center;
 }
+
 @keyframes blink {
 	from, to { 
 		background-color: transparent;
